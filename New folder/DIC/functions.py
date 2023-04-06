@@ -1,0 +1,11 @@
+d={100:"joshi",200:"ram",300:"krish"}
+#length
+print(len(d))
+#clear
+print(d.clear())
+#pop()
+print(d.pop(200))
+print(d)
+#popitem
+print(d.popitem())
+print(d)
