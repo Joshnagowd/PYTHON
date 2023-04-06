@@ -1,0 +1,7 @@
+f= open("hello.txt","r")
+print(f.tell())
+print(f.read(2))
+print(f.tell())
+print(f.read(3))
+print(f.seek(2))
+print(f.read(4))

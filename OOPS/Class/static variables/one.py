@@ -13,7 +13,6 @@ class Test:
         Test.f = 60
 t = Test()
 t.m1()
-Test.m2()
 t.m2()
 print(t.a)
 print(t.b)

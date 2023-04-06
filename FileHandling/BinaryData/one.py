@@ -1,0 +1,5 @@
+f1=open("download.jpg","rb")
+f2=open("images.jpg","wb")
+bytes=f1.read()
+f2.write(bytes)
+print("New image is available with the new name:images.jpg")
